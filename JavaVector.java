@@ -14,5 +14,14 @@ public class JavaVector {
         v.forEach((i) -> {
             System.out.println(i);
         });
+
+        //Remove Vector Element
+        v.remove(5);
+
+        System.out.println("-----------After Element Removal-------------");
+        //Display All Vector Elements
+        v.forEach((i) -> {
+            System.out.println(i);
+        });
     }
 }
